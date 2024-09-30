@@ -1,0 +1,30 @@
+/* changer la font-size de base des navigateur */
+:root {
+  font-size: 10px;
+}
+
+.box {
+
+  padding: 10px;
+  /* pixel = unité absolue */
+
+  width: 100%;
+  /* pourcentage = relative à la hauteur de l'écran */
+
+  width: 100vw;
+  /* viewport width = relative à l alargeur du navigateur */
+
+  height: 100vh;
+  /* viewport height = relative à la hauteur du navigateur */
+
+  /* font-size: 10px; */
+}
+
+.box p {
+
+  font-size: 2rem;
+  /* rem fait reference a la taille de base des navigateur qui est de 16px */
+
+  font-size: 4em;
+  /*  em fait referance à la taille de sont parent. Si il en as pas ce sera le body donc 16px */
+}

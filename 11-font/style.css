@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+p {
+
+  /* appliquer couleur */
+  color: #f1f1f1;
+
+  /* appliquer un fond */
+  background-color: crimson;
+
+
+  /* hauteur de ligne */
+  line-height: 1.2;
+
+  /* style */
+  font-style: italic;
+
+  /* gras */
+  font-weight: 300;
+
+  /* taille */
+  font-size: 25px;
+
+  /* famille d'ecriture */
+  font-family: Arial, Helvetica, sans-serif;
+
+/* font = propriété raccourcis */
+/* font-style / font-weight / font-size / line-height / font-family */
+  font: italic 700 10px / 2 sans-serif;
+
+
+/* alignement sur x [center, left, right, justify] */
+  text-align: left;
+
+/* text-decoration: [underline | line-through | overline] */
+  text-decoration:overline;
+
+/* white-space = empeche le retour à la ligne. [nowrap ou wrap] */
+  /* white-space: nowrap; */
+
+  /* text-transofrm: uppercase |lowercase | capitalize */
+  text-transform: capitalize;
+
+  /* espace entre les lettres */
+  letter-spacing: 10px;
+
+
+
+  font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,27 @@
+
+/* ################ ELEMENTS BLOCK */
+
+ /* les elements block accepte la width, height, margin (top,left,right,bottom) */
+
+
+ /* si un element block n'as pas de largeur definit il prendra la largeur de sont parent et si il n'as pas de parent ce sera le body qui à une largeur de 100% */
+
+p {
+  background-color: salmon;
+  width: 500px;
+  height: 500px;
+  margin: 20px 20px 20px 20px;
+  padding: 20px 20px 20px 20px;
+}
+
+
+/* ################ ELEMENTS INLINE  */
+ /* les elements inline n'accepte pas la width, height, margin (top et bottom) mais il accepte le padding(top, left, right, bottom) et le margin (l
+ eft et right) */
+span {
+  background-color: orange;
+  margin-left: 50px;
+  margin-right: 10px;
+  padding: 25px 25px 25px 25px;
+}
+/* ATTENTION: si il n'y a aucun element en haut d'un element inline le padding-top depassera */

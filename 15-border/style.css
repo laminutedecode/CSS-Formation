@@ -1,0 +1,40 @@
+.box {
+  width: 300px;
+  height: 300px;
+  background: salmon;
+
+
+  /* ########################### BORDER */
+  /* border-style: solid;
+  border-width: 2px;
+  border-color: #333; */
+
+  border: 2px solid #333;
+
+  border-left: 3px solid orange;
+  border-right: 3px solid crimson;
+  border-top: 3px solid brown;
+  border-bottom: 3px solid green;
+
+
+  /*  ####################### BORDER-STYLE */
+
+  /* border: 3px dashed #333; */
+  /* border: 3px dotted #333; */
+  /* border: 3px double #333; */
+  /* border: 3px groove #333; */
+  /* border: 3px ridge #333; */
+  /* border: 3px outset #333; */
+  /* border: 3px inset #333; */
+
+
+  /*  ######################## BORDER-RADIUS */
+
+  border-radius: 50px;
+  border-radius: 50px 100px;
+  border-radius: 50px 100px 70px;
+  border-radius: 10px 200px 50px 95px;
+  border-radius: 30% 70% 70% 30% / 0% 30% 70% 100%;
+
+  /* https://9elements.github.io/fancy-border-radius/ */
+}

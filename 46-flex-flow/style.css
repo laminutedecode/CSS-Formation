@@ -1,0 +1,16 @@
+.cont {
+  height: 800px;
+  background: salmon;
+  display: flex;
+  /* flex-flow = propriété raccourcis de flex-wrap et flex-direction */
+ flex-flow: wrap  row;
+
+  
+}
+
+.item {
+  width: 250px;
+  height: 250px;
+  background: red;
+  margin: 1rem;
+}

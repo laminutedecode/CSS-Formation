@@ -1,0 +1,42 @@
+.cont {
+  height: 400px;
+  background: salmon;
+  display: grid;
+  grid-template-rows: repeat(2,1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.box1 {
+  background: red;
+  /* grid-row-start: 2;
+  grid-row-end: 3;
+  grid-column-start: 3;
+  grid-column-end: 4; */
+
+  grid-row: 2/3;
+  grid-column: 3/4;
+  /* span = etendre */
+  /* grid-row: 1/ -1; */
+  /* grid-column: 2/span 4 */
+
+
+  /* grid area = propriété raccourcis */
+
+  grid-area: 2/3/3/4;
+}
+.box2 {
+  background: blue;
+}
+.box3 {
+  background: violet;
+}
+.box4 {
+  background: brown;
+}
+.box5 {
+  background: orange;
+}
+.box6 {
+  background: pink;
+}

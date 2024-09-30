@@ -1,0 +1,20 @@
+.cont {
+  height: 800px;
+  background: salmon;
+  display: flex;
+ flex-flow: wrap  row;
+
+ align-content: space-around;
+ align-content: space-between;
+ align-content: flex-end;
+ align-content: flex-start;
+
+  
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin: 1rem;
+}

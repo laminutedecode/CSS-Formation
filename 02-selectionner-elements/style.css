@@ -1,0 +1,29 @@
+/* p {
+  color: orange;
+} */
+
+.txt {
+  color: violet;
+}
+
+#str {
+  color: brown;
+}
+
+/* p {
+  color: red!important;
+} */
+
+/* les nom des elements < les classes < les ids < le mot clé important */
+
+.box {
+  color: green;
+}
+
+.box  {
+  color: orange;
+}
+
+.tx {
+  color: crimson;
+}

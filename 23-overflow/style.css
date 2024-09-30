@@ -1,0 +1,28 @@
+.box {
+  width: 500px;
+  height: 200px;
+  margin-bottom: 2rem;
+  background: orange;
+  /* cacher tout ce qui depasse */
+  overflow: hidden;
+
+  /* scroll sur Y */
+  /* overflow: auto; */
+
+  /* scroll = y et x */
+  /* overflow: scroll; */
+}
+
+
+.box2 {
+  width: 450px;
+  height: 250px;
+  border-radius: 20px;
+  background: violet;
+  overflow: hidden;
+}
+
+.box2 img {
+  width: 100%;
+  height: auto;
+}

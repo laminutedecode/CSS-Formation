@@ -1,0 +1,55 @@
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 5rem auto;
+  z-index: 1;
+}
+
+
+.container {
+  z-index: 1;
+}
+
+.container .logo {
+  z-index: 2;
+}
+
+
+
+
+/* ###########################################################  DEBUT EXERCICE */
+
+
+/*   1 - Centrer sur Y et X le logo qui as la class ".logo*    /
+
+
+
+
+
+/* 2 - Centrer le logo qui as la classe ".logo" en haut sur Y à droite sur X */
+
+
+
+
+
+
+/* 3 - Centrer le logo qui as la classe ".logo" en bas sur Y à droite sur X */
+
+
+
+
+
+
+
+/* 4 - Centrer le logo qui as la classe ".logo" en bas sur Y à gauche sur X */
+
+
+
+
+
+
+/* 5 - Centrer le logo qui as la classe ".logo" au centre sur Y et à gauche sur X */
+
+
+
+

@@ -1,0 +1,66 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 80%;
+}
+
+body {
+  font: 1em/1.5 Roboto, sans-serif;
+  background-color: #ccc;
+}
+
+.titre-site {
+  margin: 0;
+  font: 100 5em/1 Roboto, sans-serif;
+}
+
+.exemple {
+
+  overflow: hidden;
+  resize: both;
+  display: inline-block;
+  width: 180px;
+  min-height: 240px;
+  padding: 20px;
+  margin: 30px;
+  vertical-align: top;
+  background-color: #ffffff;
+}
+
+.exemple h2 {
+  margin: 0 0 10px;
+  font: 900 1em/1 Roboto, sans-serif;
+}
+
+.exemple p {
+  margin: 0;
+  font: 400 .7em/1.5 Roboto, sans-serif;
+}
+
+
+
+/* DEBUT EXERCICE */
+
+
+/* 1 */
+
+
+/* 2 */
+
+
+
+/* 3 */
+
+
+/* 4 */
+
+/* 5 */
+
+/* 6 */
+
+/* 7 */

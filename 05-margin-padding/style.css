@@ -1,0 +1,54 @@
+
+
+.box {
+  width: 500px;
+  height: 500px;
+  background-color: salmon;
+
+  /* ############################ MARGIN */
+
+  /* margin-top: 55px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px; */
+
+  /* 4 côtés */
+  margin: 20px;
+
+  /* haut et bas / gauche et droite */
+  margin: 25px 30px;
+
+  /* haut / gauche et droite / bas */
+  margin: 30px 25px 10px;
+
+  /* haut / droite / bas / gauche */
+  margin: 10px 15px 20px 30px;
+
+
+  /* ############################ PADDING */
+
+  /* padding-top: 15px;
+  padding-bottom: 20px;
+  padding-right: 25px;
+  padding-left: 25px; */
+
+  /* 4 côtés */
+  padding: 20px;
+
+  /* haut et bas / gauche et droite */
+  padding: 25px 30px;
+
+  /* haut / gauche et droite / bas */
+  padding: 30px 25px 10px;
+
+  /* haut / droite / bas / gauche */
+  padding: 10px 15px 20px 30px;
+  
+}
+
+.box1 {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+

@@ -1,0 +1,75 @@
+ style {
+   display: block;
+   font-family: 'Roboto Mono', monospace;
+   white-space: pre;
+   margin: 1em 0px;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: Roboto, Arial, Helvetica, sans-serif;
+   color: #f1f1f1;
+ }
+
+ h1 {
+   font-weight: 100;
+   font-size: 4rem;
+ }
+
+ h2 {
+   font-weight: 100;
+   font-size: 2rem;
+   clear: both;
+ }
+
+ h3 {
+   font-weight: 900;
+   font-size: 3rem;
+   clear: both;
+   margin: 0;
+   margin-left: -2rem;
+ }
+
+ .conteneur {
+   background-color: rgb(234, 188, 188);
+   margin: 1rem 0 2rem;
+ }
+
+ .conteneur::after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .colonne {
+
+   padding: 1rem;
+   padding-left: 3rem;
+ }
+
+ .col1 {
+   background-color: rgb(5, 37, 78);
+ }
+
+ .col2 {
+   background-color: rgb(44, 78, 6);
+ }
+
+ .col3 {
+   background-color: rgb(70, 20, 65);
+ }
+
+ .col4 {
+   background-color: rgb(102, 75, 25);
+ }
+
+ .col5 {
+   background-color: rgb(87, 36, 35);
+ }
+
+
+ /*  ###################### Début d'exercice */
+

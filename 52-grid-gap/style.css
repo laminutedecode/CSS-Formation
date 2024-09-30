@@ -1,0 +1,37 @@
+.cont {
+  height: 400px;
+  background: salmon;
+  display: grid;
+
+
+  /* rangé */
+  grid-template-rows: 150px 150px;
+
+  /* colonne */
+  grid-template-columns: 250px 250px 250px;
+
+  /* grid-row-gap: 10px;
+  grid-column-gap: 50px; */
+
+  /* grid-gap: 10px 20px; */
+  grid-gap: 10px;
+}
+
+.box1 {
+  background: red;
+}
+.box2 {
+  background: blue;
+}
+.box3 {
+  background: violet;
+}
+.box4 {
+  background: brown;
+}
+.box5 {
+  background: orange;
+}
+.box6 {
+  background: pink;
+}

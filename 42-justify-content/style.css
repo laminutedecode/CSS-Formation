@@ -1,0 +1,28 @@
+.cont {
+  height: 500px;
+  background: salmon;
+  display: flex;
+
+
+  /* alignement horizontal */
+  justify-content: center;
+  justify-content: end;
+  justify-content: flex-end;
+  justify-content: flex-start;
+  justify-content: start;
+  justify-content: right;
+  justify-content: left;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly;
+
+
+  
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin: 1rem;
+}

@@ -1,0 +1,32 @@
+.cont {
+  height: 400px;
+  background: salmon;
+  display: grid;
+  grid-temlplate-rows: repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
+  grid-gap: 10px;
+
+  grid-template-areas: "head head head"
+                      "body body body"
+}
+
+.box1 {
+  background: red;
+  /* grid-area: head; */
+  grid-area: body
+}
+.box2 {
+  background: blue;
+}
+.box3 {
+  background: violet;
+}
+.box4 {
+  background: brown;
+}
+.box5 {
+  background: orange;
+}
+.box6 {
+  background: pink;
+}

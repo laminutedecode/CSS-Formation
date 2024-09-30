@@ -1,0 +1,35 @@
+.cont {
+  height: 800px;
+  background: salmon;
+  display: flex;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin: 1rem;
+
+
+}
+
+
+.item:nth-child(1){
+  background: violet;
+  align-self: flex-end;
+
+}
+.item:nth-child(2){
+  background: orange;
+  align-self: flex-start;
+
+}
+.item:nth-child(3){
+  background: red;
+  align-self: center;
+  align-self: stretch;
+
+  margin-left: auto;
+  margin-top: auto;
+
+}

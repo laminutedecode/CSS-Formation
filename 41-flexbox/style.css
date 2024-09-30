@@ -1,0 +1,12 @@
+.cont {
+  height: 500px;
+  background: salmon;
+  display: flex;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin: 1rem;
+}

@@ -1,0 +1,33 @@
+p {
+
+  /* ######################## COULEURS DE TEXTES */
+
+  /* nom de couleurs */
+  color: green;
+  /*  héxadécimal */
+  color: #333;
+  /* rgb */
+  color: rgb(0,0,0);
+  /* rgba */
+  color: rgba(0,0,0,0.2);
+  /* hsl */
+  color: hsl(39,100%,50%);
+  /* hwb */
+  color: hwb(39,0%,0%);
+
+  /* ######################## COULEURS DE FOND */
+
+  /* nom de couleurs */
+  background-color: red;
+  /* héxadecimal */
+  background-color: #ff0000;
+  /* hsl */
+  background-color: hsl(0, 100%, 50%);
+  /* rgb */
+  background-color: rgb(0,0,0);
+  /* rgba */
+  background-color: rgba(0, 0, 0, .5);
+
+  /* Aller sur  https: //colorable.jxnblk.com/ pour tester le contrast des couleurs*/
+  
+}

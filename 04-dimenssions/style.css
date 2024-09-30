@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  /*  vh est une unité relative à la hauteur d'écran du navigateur */
+}
+
+.box {
+  background-color: red;
+  /* ################################## Dimenssions */
+
+  /* largeur */
+  /* width: 150px; */
+  width: 50%;
+   /* pixel est une unité absolue 1px sera toujours égale à 1px */
+   /* On peut mettre des % qui est une unité relative à la largeur d'écran*/
+  /* Hauteur */
+  /* height: 150px; */
+  height: 50%;
+}
+
+.box1{
+  background-color:aqua;
+  width: 100%;
+  /* max-width = largeur maximal */
+  max-width: 750px;
+  /* min-width: largeur minimal */
+  min-width: 500px;
+  height: 100%;
+  /* max-height: hauteur maximal */
+  max-height: 300px;
+  /* min-height = hauteur minimal */
+  min-height: 150px;
+}

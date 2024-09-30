@@ -1,0 +1,12 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  width: 250px;
+  height: 250px;
+  background: linear-gradient(blue, red);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}

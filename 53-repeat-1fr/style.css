@@ -1,0 +1,30 @@
+.cont {
+  height: 400px;
+  background: salmon;
+  display: grid;
+
+  /* grid-template-rows: repeat(2, 150px); */
+  /* grid-template-columns: repeat(3,250px); */
+
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.box1 {
+  background: red;
+}
+.box2 {
+  background: blue;
+}
+.box3 {
+  background: violet;
+}
+.box4 {
+  background: brown;
+}
+.box5 {
+  background: orange;
+}
+.box6 {
+  background: pink;
+}

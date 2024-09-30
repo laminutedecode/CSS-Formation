@@ -1,0 +1,88 @@
+.container {
+  width: 500px;
+  height: 500px;
+  margin: 5rem auto;
+  z-index: 1;
+}
+
+
+.container  {
+z-index: 1;
+}
+.container .logo {
+z-index: 2;
+}
+
+
+
+
+/* DEBUT EXERCICE */
+
+
+/* 1 */
+
+.cont-01 {
+  position: relative;
+}
+
+.cont-01 .logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%)
+}
+
+/* 2 */
+
+
+.cont-02  {
+  position: relative;
+}
+
+.cont-02 .logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+
+/* 3 */
+
+
+.cont-03  {
+  position: relative;
+}
+
+.cont-03 .logo {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+/* 4 */
+
+
+.cont-04  {
+  position: relative;
+}
+
+.cont-04 .logo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+/* 5 */
+
+
+.cont-05 {
+  position: relative;
+}
+
+.cont-05 .logo {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}

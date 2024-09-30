@@ -1,0 +1,31 @@
+/*  la fonction calc permet de faire des calculs pour déterminer la valeur d'une propriété CSS. */
+
+
+p {
+  /* nous pouvons faire des multiplication, addition, division et soustraction */
+  font-size: calc(25px + 2vw - 2px)
+    /* font-size: calc(55px / 2) */
+}
+
+.box {
+  width: calc(100% - 80px);
+  background: red;
+  height: 200px;
+}
+
+
+/*  La fonction clamp permet de definir une valeur entre deux bornes inférieure et supérieure. Cette fonction utilise trois paramètres : une valeur minimale,
+ la valeur à tester et une valeur maximale. */
+
+.box2 {
+  margin-top: 1rem;
+  /* width: clamp(10px, 4em, 80px); */
+  /* Dans l'exemple précédent, la largeur fera au plus 80 pixels et au moins 10 pixels mais mesurera 4em de large si un em mesure entre 2.5 et 20px. */
+
+
+  /* on peut utiliser max et min */
+  /* width: max(10px, 64px); */
+  width: max(100px, min(14px, 80px));
+  background: rgb(255, 204, 0);
+  height: 200px;
+}

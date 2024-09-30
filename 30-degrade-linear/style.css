@@ -1,0 +1,32 @@
+.box {
+  width: 400px;
+  height: 400px;
+  /*  ######################## Dégradé linear */
+
+  /* background: linear-gradient(to top, red, blue); */
+
+  /* plusieurs couleurs */
+  /* background: linear-gradient(to top, red, blue, orange, violet, yellow) */
+
+  /* direction */
+  /* background: linear-gradient(60deg, red, blue, orange, violet, yellow) */
+
+  /* indicateurs de couleurs*/
+  /* background: linear-gradient(60deg, red, blue 28%, orange 77%, cyan) */
+
+  /* lignes franches*/
+  /* background: linear-gradient(to bottom left, blue 50%, red 50%) */
+
+   /* bandes de couleurs*/
+  /* background: linear-gradient(to left, orange 20%, red 30%, red 45%, cyan 55%, cyan 70%, yellow 80%) */
+   /* background: linear-gradient(to left, orange 25%, red 25%, red 50%, cyan 50%, cyan 75%, yellow 75%) */
+
+   /* Transparence */
+   /* background: linear-gradient(to right, transparent, red) */
+
+
+   /* plusieurs degradé */
+   background: linear-gradient(217deg, rgba(185,67,67,0.8), rgba(255,0,0,0) 70.71%),
+               linear-gradient(127deg, rgba(251,255,0.8),rgba(185,67,67,0.8), rgba(255, 0, 0, 0) 70.71%),
+               linear-gradient(336deg, rgba(64,64,215,.8), rgba(255, 0, 0, 0) 70.71%);
+}

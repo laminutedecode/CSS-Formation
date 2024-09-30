@@ -1,0 +1,21 @@
+.box {
+  width: 150px;
+  height: 150px;
+  background: salmon;
+  text-align: center;
+  color: #f1f1f1;
+  /* transition-property: background;
+  transition-duration: 1s;
+  transition-delay: 2s;
+  transition-timing-function: ease; */
+
+  transition: background 0.5s ease-in-out,
+              color 0.2s ease-in-out 2s;
+}
+
+.box:hover {
+  /* transition: background 0.5s ease-in-out,
+        color 0.2s ease-in-out 2s; */
+  background: #333;
+  color: crimson;
+}

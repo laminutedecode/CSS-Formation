@@ -1,0 +1,14 @@
+.logo {
+  width: 230px;
+  height: 225px;
+  margin: 5px;
+  background: url('./spirites.png');
+}
+
+.logo2 {
+  background-position: -300px 0;
+}
+.logo3 {
+  background-position: -600px 0;
+}
+

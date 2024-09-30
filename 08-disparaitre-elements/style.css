@@ -1,0 +1,16 @@
+p {
+  width: 300px;
+  height: 80px;
+  background-color: orange;
+}
+
+.txt {
+  /* display none = disparait du flux */
+  display: none;
+
+  /* visibility = disparait mais reste dans le flux */
+  /* visibility: hidden; */
+
+  /* opacity = disparait mais reste dansle flux */
+  /* opacity: 0; */
+}

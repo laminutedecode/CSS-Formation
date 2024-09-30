@@ -1,0 +1,45 @@
+.box {
+  width: 400px;
+  height: 400px;
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+
+  /*  ########################### FILTER */
+
+  /* blur = flou */
+  /* filter: blur(5px) */
+
+  /* contrast = contrast */
+  /* filter: contrast(200%) */
+
+  /* grayscale = image en gris */
+  /* filter: grayscale(100%) */
+
+  /* hue rotate = tourne les couleurs sur la roue chromatique */
+  /* filter: hue-rotate(90deg) */
+
+  /* inverte = inversse les couleurs */
+  /* filter: invert(75%) */
+
+  /* opacity = opacité */
+  /* filter: opacity(25%) */
+
+  /* saturate = saturation */
+  /* filter: saturate(30%); */
+
+  /* brightness = luminosité */
+  /* filter: brightness(0.4) */
+
+  /* sepia = effet vielli */
+  /* filter: sepia(60%) */
+
+  /* drop-shadow = ombre */
+  /* filter: drop-shadow(16px 16px 20px rgba(0,0,0)) */
+
+  filter: contrast(175%) sepia(60%) opacity(75%);
+
+
+}

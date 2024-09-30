@@ -1,0 +1,40 @@
+.cont {
+  height: 600px;
+  background: salmon;
+
+  display: grid;
+  grid-template-rows: repeat(2, 150px);
+  grid-gap: 10px;
+
+  /* min-content prend la largeur du plus grand element du contenu */
+  grid-template-columns: repeat(2,200px) max-content;
+  /* max-content prend la largeur total du contenu */
+   grid-template-columns: 200px 1fr max-content;
+
+}
+
+
+
+.box1 {
+  background: violet;
+}
+
+.box2 {
+  background: red;
+}
+
+.box3 {
+  background: blue;
+}
+
+.box4 {
+  background: brown;
+}
+
+.box5 {
+  background: pink;
+}
+
+.box6 {
+  background: orange;
+}

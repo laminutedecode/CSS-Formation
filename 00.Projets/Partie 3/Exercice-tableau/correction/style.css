@@ -1,0 +1,35 @@
+table {
+  min-width: 400px;
+  height: auto;
+  box-shadow: 0 5px 5px 0 rgba(0,0,0,0.3);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(220,20,60,0.2);
+  border-collapse: collapse;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+thead tr {
+  background: crimson;
+  color: #f1f1f1;
+  text-align: left;
+}
+
+th, td {
+  padding: 15px 20px;
+}
+
+tbody td {
+  border: 1px solid rgba(220,20,60,0.2)
+}
+
+tbody tr:nth-child(even){
+  background: rgba(220,20,60,0.2);
+}
+
+tfoot {
+  text-align: center;
+  border-bottom: 4px solid crimson;
+}

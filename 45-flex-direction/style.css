@@ -1,0 +1,23 @@
+.cont {
+  height: 800px;
+  background: salmon;
+  display: flex;
+
+  /* flex direction = direction du flex */
+  /* flex-direction: column-reverse; */
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center
+  
+
+  
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin: 1rem;
+}

@@ -1,0 +1,203 @@
+ style {
+   display: block;
+   font-family: 'Roboto Mono', monospace;
+   white-space: pre;
+   margin: 1em 0px;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+ body {
+   font-family: Roboto, Arial, Helvetica, sans-serif;
+   color: #f1f1f1;
+ }
+
+ h1 {
+   font-weight: 100;
+   font-size: 4rem;
+ }
+
+ h2 {
+   font-weight: 100;
+   font-size: 2rem;
+   clear: both;
+ }
+
+ h3 {
+   font-weight: 900;
+   font-size: 3rem;
+   clear: both;
+   margin: 0;
+   margin-left: -2rem;
+ }
+
+ .conteneur {
+   background-color: rgb(234, 188, 188);
+   margin: 1rem 0 2rem;
+ }
+
+ .conteneur::after {
+   content: "";
+   display: table;
+   clear: both;
+ }
+
+ .colonne {
+
+   padding: 1rem;
+   padding-left: 3rem;
+ }
+
+ .col1 {
+   background-color: rgb(5, 37, 78);
+ }
+
+ .col2 {
+   background-color: rgb(44, 78, 6);
+ }
+
+ .col3 {
+   background-color: rgb(70, 20, 65);
+ }
+
+ .col4 {
+   background-color: rgb(102, 75, 25);
+ }
+
+ .col5 {
+   background-color: rgb(87, 36, 35);
+ }
+
+
+ /* :######################################################## DEBUT EXERCICE: */
+
+
+ /* 1 */
+
+     .cont01::after,
+     .cont01::before {
+       content: '';
+       display: table;
+       clear: both;
+     }
+  
+     .cont01 .colonne {
+       width: 25%;
+       float: left;
+     }
+
+
+     /* 2 */
+
+
+            .cont02::after,
+            .cont02::before {
+              content: '';
+              display: table;
+              clear: both;
+            }
+      
+            .cont02 .colonne {
+              width: 25%;
+            }
+      
+            .cont02 .col1,
+            .cont02 .col3 {
+              float: left;
+            }
+      
+            .cont02 .col2,
+            .cont02 .col4 {
+              float: right;
+            }
+
+/* 3 */
+
+.cont03::after,
+.cont03::before {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.cont03 .col2,
+.cont03 .col4 {
+  float: right;
+  width: 75%;
+  clear: right;
+}
+
+.cont03 .col3 {
+  float: left;
+  width: 25%;
+}
+
+/* 4 */
+
+     .cont04::after,
+     .cont04::before {
+       content: '';
+       display: table;
+       clear: both;
+     }
+  
+     .cont04 .col2 {
+       width: 200px;
+       float: left;
+     }
+  
+     .cont04 .col4 {
+       width: 200px;
+       float: right;
+     }
+  
+     .cont04 .col5 {
+       clear: both;
+     }
+  
+     .cont04 .col3 {
+       float: left;
+       width: calc(100% - 400px);
+     }
+
+
+     /* 5 */
+
+             .cont05::after,
+             .cont05::before {
+               content: '';
+               display: table;
+               clear: both;
+             }
+      
+             .cont05 .colonne {
+               float: left;
+               width: 20%;
+             }
+      
+             .cont05 .col1 {
+               margin-left: 40%;
+               margin-right: -60%;
+             }
+      
+             .cont05 .col2 {
+               margin-left: 20%;
+               margin-right: -40%;
+             }
+      
+             .cont05 .col3 {
+               margin-left: 0;
+               margin-right: -20%;
+             }
+      
+             .cont05 .col4 {
+               margin-left: 60%;
+               margin-right: -80%;
+             }
+      
+             .cont05 .col5 {
+               margin-left: 80%;
+               margin-right: 0;
+             }

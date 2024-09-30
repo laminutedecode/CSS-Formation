@@ -1,0 +1,272 @@
+*,
+::before,
+::after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 80%;
+}
+
+body {
+  font: 1em/1.5 Roboto, sans-serif;
+  background-color: #ccc;
+}
+
+.titre-site {
+  margin: 0;
+  font: 100 5em/1 Roboto, sans-serif;
+}
+
+.exemple {
+
+  overflow: hidden;
+  resize: both;
+  display: inline-block;
+  width: 180px;
+  min-height: 240px;
+  padding: 20px;
+  margin: 30px;
+  vertical-align: top;
+  background-color: #ffffff;
+}
+
+.exemple h2 {
+  margin: 0 0 10px;
+  font: 900 1em/1 Roboto, sans-serif;
+}
+
+.exemple p {
+  margin: 0;
+  font: 400 .7em/1.5 Roboto, sans-serif;
+}
+
+
+
+/* DEBUT EXERCICE */
+
+
+
+/* 1 */
+
+ #exemple01 {
+   --c1: #f0c1d1 #8d2246 #671933 #e593af;
+   border-color: var(--c1);
+   border-style: solid;
+   border-width: 8px;
+ }
+
+ #exemple01 h2::before {
+   content: "";
+   border-color: var(--c1);
+   border-style: solid;
+   border-width: 8px;
+
+   border-radius: 8px;
+
+   display: inline-block;
+   margin-right: 20px;
+   box-shadow:
+     4px 4px 4px #000c,
+     0 0 0 4px #da658c;
+
+ }
+
+
+ /* 2 */
+
+     #exemple02 {
+       border: 8px outset #bbcf48;
+       box-shadow: 8px 8px 16px #0008;
+     }
+  
+     #exemple02:hover {
+       border: 8px inset #bbcf48;
+       box-shadow: inset 8px 8px 16px #0008;
+     }
+  
+     #exemple02 h2::before {
+       content: "";
+       border: 16px ridge #bbcf48;
+       border-radius: 500px;
+       display: inline-block;
+       margin-right: 8px;
+     }
+  
+     #exemple02:hover h2::before {
+       border-style: groove;
+     }
+
+/* 3 */
+
+ #exemple03 {
+   border: 8px solid #a6c5ec;
+   border-radius: 32px;
+   box-shadow:
+     inset 0 0 0 8px #5e95dd,
+     inset 0 0 0 16px #76a5e2,
+     inset 0 0 0 24px #2665b6;
+   padding: 32px;
+ }
+
+ #exemple03 h2::before {
+   content: "";
+   border: 4px solid #2665b6;
+   border-radius: 32px;
+   box-shadow:
+     inset 0 0 0 4px #76a5e2,
+     inset 0 0 0 8px #5e95dd,
+     inset 0 0 0 12px #a6c5ec;
+   display: inline-block;
+   margin-right: 8px;
+   height: 32px;
+   width: 32px;
+ }
+
+
+ /* 4 */
+
+     #exemple04 {
+       border: 4px outset #da658c;
+     }
+  
+     #exemple04 p::before {
+       content: "";
+       display: inline-block;
+       margin-right: 1em;
+       border-style: solid;
+       border-width: 4px 0 4px 8px;
+       border-color: transparent black;
+     }
+  
+     #exemple04 h2 {
+       height: 40px;
+       background-color: #da658c;
+       color: white;
+       text-align: center;
+       line-height: 40px;
+  
+       position: relative;
+     }
+  
+     #exemple04 h2::before {
+       content: "";
+       border-style: solid;
+       border-color: #da658c transparent;
+       border-width: 20px 0 20px 10px;
+       ;
+       position: absolute;
+       top: 0;
+       right: 100%;
+  
+     }
+  
+     #exemple04 h2::after {
+       content: "";
+       border-style: solid;
+       border-color: transparent #da658c;
+       border-width: 20px 0 20px 10px;
+       ;
+       position: absolute;
+       top: 0;
+       left: 100%;
+  
+     }
+
+
+     /* 5 */
+
+            #exemple05 {}
+      
+            #exemple05 p::first-letter {
+              font-weight: bold;
+              font-size: 2em;
+              line-height: .5em;
+            }
+      
+            #exemple05 h2 {
+              color: white;
+              background-color: #a6c5ec;
+              padding: .2em 1em;
+              padding-left: 40px;
+              margin: .5em -20px 1em -40px;
+              position: relative;
+            }
+      
+            #exemple05 h2::before {
+              content: "";
+              position: absolute;
+              left: 0;
+              top: 100%;
+              border-style: solid;
+              border-color: transparent #1e4f8f;
+              border-width: 0 20px 12px 0;
+            }
+      
+            #exemple05 h2::after {
+              content: "";
+              position: absolute;
+              background-color: #0004;
+              height: 4px;
+              left: 20px;
+              right: 0;
+              top: 100%;
+            }
+
+
+/* 6 */
+
+
+    #exemple06 p {
+      position: relative;
+    }
+  
+    #exemple06 p::before {
+      content: "";
+      border-style: solid;
+      border-color: transparent black;
+      border-width: 4px 0 4px 8px;
+  
+      position: absolute;
+      left: -20px;
+    }
+  
+    #exemple06 h2 {
+      background-color: #8a9b29;
+      margin: -20px;
+      margin-bottom: 20px;
+      padding: 20px;
+  
+      color: white;
+      box-shadow: inset 4px 4px 8px #0006;
+      text-shadow: 4px 4px 8px #0006;
+    }
+  
+    #exemple06 h2:hover {
+      box-shadow:
+        inset 0 0 12px #fff6,
+        inset 2px 2px 8px #0006;
+      text-shadow:
+        0 0 12px #fff6,
+        2px 2px 8px #0006;
+    }
+
+
+    /* 7 */
+
+#exemple7 {
+--c1: #d9668b;
+   border: 8px dotted var(--c1);
+  box-shadow:
+ 12px 0 var(--c1),
+                -12px 0 var(--c1),
+                0 12px var(--c1),
+                0 -12px var(--c1),
+                0 0 0 8px #e9a8bf,
+                4px 4px 16px 8px #000;
+            }
+      
+            #exemple7 h2 {
+              border-bottom: 12px double #d9668b;
+            }

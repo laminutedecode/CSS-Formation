@@ -1,0 +1,19 @@
+.cont {
+  height: 500px;
+  background: salmon;
+  display: flex;
+
+/*  alignement vertical */
+align-items: center;
+align-items: flex-start;
+align-items: flex-end;
+align-items: stretch;
+  
+}
+
+.item {
+  width: 150px;
+  /* height: 150px; */
+  background: red;
+  margin: 1rem;
+}

@@ -1,0 +1,33 @@
+.cont {
+  height: 800px;
+  background: salmon;
+  display: flex;
+}
+
+.item {
+  width: 150px;
+  height: 150px;
+  background: red;
+  margin: 1rem;
+
+
+}
+
+
+.item:nth-child(1){
+  background: violet;
+  order: 3;
+
+
+}
+.item:nth-child(2){
+  background: orange;
+  order: 1;
+
+
+}
+.item:nth-child(3){
+  background: red;
+  order: 2;
+
+}

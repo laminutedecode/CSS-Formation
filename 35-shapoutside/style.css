@@ -1,0 +1,26 @@
+body {
+  background: brown;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 500px;
+  padding: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #f1f1f1;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  float: left;
+  margin: 1rem 2rem;
+  /* shape-outside: circle(50%); */
+  /* shape-outside: ellipse() */
+  shape-outside: polygon(50% 0, 100% 50%, 50% 100%, 0% 50%);
+  shape-margin: 5%;
+}

@@ -1,0 +1,14 @@
+.box {
+  width: 400px;
+  height: 400px;
+  /*  ######################## Dégradé conic */
+
+  /* background: conic-gradient(red, blue); */
+
+  /* direction */
+/* background: conic-gradient(at 0% 30%, red, yellow, blue) */
+
+
+/* modifier l'angle */
+background: conic-gradient(from 45deg, red, orange, violet)
+}

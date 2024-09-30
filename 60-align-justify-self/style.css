@@ -1,0 +1,54 @@
+.cont {
+  height: 600px;
+  background: salmon;
+
+  display: grid;
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(3, 150px);
+  grid-gap: 10px;
+
+}
+
+
+
+.box1 {
+  background: violet;
+
+  /* sur X */
+  justify-self: center;
+  justify-self: end;
+  justify-self: start;
+  justify-self: flex-start;
+  justify-self: flex-end;
+  justify-self: left;
+  justify-self: right;
+  justify-self: stretch;
+}
+
+.box2 {
+  background: red;
+  
+  /* sur Y */
+  align-self: center;
+  align-self: flex-start;
+  align-self: flex-end;
+  align-self: end;
+  align-self: start;
+  align-self: stretch;
+}
+
+.box3 {
+  background: blue;
+}
+
+.box4 {
+  background: brown;
+}
+
+.box5 {
+  background: pink;
+}
+
+.box6 {
+  background: orange;
+}
